@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 import { Statistics } from './Statistics/Statistics';
 import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
 import { Section } from './Section/Section';
-import css from '../index.css';
 
 export const App = () => {
-  const [feedback, setFeedback] = useState({
+  const [feedback, setFeedback] = React.useState({
     good: 0,
     neutral: 0,
     bad: 0,

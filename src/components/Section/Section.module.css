@@ -1,0 +1,11 @@
+.section {
+width: 500px;
+}
+
+.title {
+    font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: #4d5ae5;
+  color: white;
+}

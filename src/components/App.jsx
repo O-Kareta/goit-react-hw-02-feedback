@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Statistics } from './Statistics/Statistics';
 import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
 import { Section } from './Section/Section';
+import css from '../index.css';
 
 export const App = () => {
   const [feedback, setFeedback] = useState({
@@ -24,9 +25,11 @@ export const App = () => {
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
+        textAlign: 'center',
         alignItems: 'center',
         fontSize: 20,
         color: '#010101',
+        backgroundColor: '#eff3f6',
       }}
     >
       <Section title="Collecting feedback">

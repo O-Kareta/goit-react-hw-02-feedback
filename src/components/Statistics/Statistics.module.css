@@ -1,0 +1,21 @@
+.title {
+ font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: #4d5ae5;
+}
+
+.subtitle {
+  font-weight: 600;
+  text-align: left;
+}
+
+.resultTitle {
+  text-align: left;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: #4d5ae5;
+  color: white;
+}
